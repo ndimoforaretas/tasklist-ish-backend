@@ -9,7 +9,7 @@ import connectDB from "./database/connectDB.js";
 const app = express();
 dotenv.config();
 
-const port = process.env.PORT || 5050;
+const port = process.env.PORT_NUMMER;
 const connectionString = process.env.MONGODB_URL;
 
 // Start MIDDLEWARES
